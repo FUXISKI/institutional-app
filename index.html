@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>מערכת ניהול רכש ומלאי</title>
+
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#1e293b">
+
+  <style>
+    html, body, iframe {
+      margin: 0;
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
+  </style>
+</head>
+<body>
+
+<iframe
+  src="https://script.google.com/macros/s/AKfycbwYFMcIkwepOJ2Cn7BnFhTVAV2UcN2TSvvj9ieW9XH_Piu2y_3KUuZePvfFXWBDpkLD/exec"
+  allow="clipboard-read; clipboard-write">
+</iframe>
+
+<script>
+if ("serviceWorker" in navigator) {
+  navigator.serviceWorker.register("sw.js");
+}
+</script>
+
+</body>
+</html>
